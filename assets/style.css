@@ -1,0 +1,7 @@
+body {
+    background: linear-gradient(to bottom right,  #f8f9fa ,#ffffff);
+    padding-top:4rem;
+}
+.bg-light{
+    background-color: #e3f2fd;
+}
