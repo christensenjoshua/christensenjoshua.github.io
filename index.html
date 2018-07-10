@@ -36,8 +36,8 @@
                         Contact
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="https://github.com/christensenjoshua" target="new">GitHub</a>
-                        <a class="dropdown-item" href="https://www.linkedin.com/in/joshua-a-christensen" target="new">LinkedIn</a>
+                        <a class="dropdown-item" href="https://github.com/christensenjoshua" target="_blank">GitHub</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/joshua-a-christensen" target="_blank">LinkedIn</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
@@ -73,7 +73,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Project Number 1</h5>
                         <p class="card-text">Here is some information about my latest project.</p>
-                        <a href="#" class="btn btn-primary">Project 1</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProject1">Project 1</button>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Project Number 2</h5>
                         <p class="card-text">Here is some information about some other project.</p>
-                        <a href="#" class="btn btn-primary">Project 2</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProject2">Project 2</button>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Project Number 3</h5>
                         <p class="card-text">Here is some information about some other project.</p>
-                        <a href="#" class="btn btn-primary">Project 3</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProject3">Project 3</button>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Project Number 4</h5>
                         <p class="card-text">Here is some information about my latest project.</p>
-                        <a href="#" class="btn btn-primary">Project 4</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProject4">Project 4</button>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Project Number 5</h5>
                         <p class="card-text">Here is some information about some other project.</p>
-                        <a href="#" class="btn btn-primary">Project 5</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProject5">Project 5</button>
                     </div>
                 </div>
             </div>
@@ -120,13 +120,139 @@
                     <div class="card-body">
                         <h5 class="card-title">Project Number 6</h5>
                         <p class="card-text">Here is some information about some other project.</p>
-                        <a href="#" class="btn btn-primary">Project 6</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProject6">Project 6</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--Modals for Projects-->
+    <div class="modal fade" id="modalProject1" tabindex="-1" role="dialog" aria-labelledby="modalProject1Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProject1Title">Project Number 1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam vitae eaque. Neque rerum veniam blanditiis
+                        voluptas, reprehenderit quam earum!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Demo Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="modal fade" id="modalProject2" tabindex="-1" role="dialog" aria-labelledby="modalProject2Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProject2Title">Project Number 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam vitae eaque. Neque rerum veniam blanditiis
+                        voluptas, reprehenderit quam earum!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Demo Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProject3" tabindex="-1" role="dialog" aria-labelledby="modalProject3Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProject3Title">Project Number 3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam vitae eaque. Neque rerum veniam blanditiis
+                        voluptas, reprehenderit quam earum!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Demo Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProject4" tabindex="-1" role="dialog" aria-labelledby="modalProject4Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProject4Title">Project Number 4</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam vitae eaque. Neque rerum veniam blanditiis
+                        voluptas, reprehenderit quam earum!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Demo Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProject5" tabindex="-1" role="dialog" aria-labelledby="modalProject5Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProject5Title">Project Number 5</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam vitae eaque. Neque rerum veniam blanditiis
+                        voluptas, reprehenderit quam earum!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Demo Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProject6" tabindex="-1" role="dialog" aria-labelledby="modalProject6Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProject6Title">Project Number 6</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam vitae eaque. Neque rerum veniam blanditiis
+                        voluptas, reprehenderit quam earum!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Demo Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Modals-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
